@@ -117,8 +117,6 @@ module.exports = function(config) {
 						exclude: /node_modules/,
 						loader: 'babel',
 						query: {
-							loose: 'all',
-							blacklist: ['es6.tailCall']
 						}
 					}
 				],

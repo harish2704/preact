@@ -12,8 +12,6 @@ export default {
 	plugins: [
 		babel({
 			sourceMap: true,
-			loose: 'all',
-			blacklist: ['es6.tailCall'],
 			exclude: 'node_modules/**'
 		})
 	]
